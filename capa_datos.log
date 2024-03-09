@@ -1,0 +1,12 @@
+02:24:34 PM: DEBUG [logger_base.py: 11] TODO EWA
+02:42:46 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000024F02962DE0>
+02:42:46 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000024F028F5BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:42:46 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000024F028F5BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:42:46 PM: DEBUG [conexion.py: 48] CONEXIONES CERRADAS
+02:53:54 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+02:53:54 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x000001CEBB19A420>
+02:53:54 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x000001CEBD029E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:54 PM: DEBUG [cursor_del_pool.py: 29] [(1, 'Teilor', 'Zapata', 'teilorza@gmail.com'), (2, 'Vanessa', 'Zapata', 'vanessa@gmail.com'), (4, 'marcos', 'ciclos', 'marcosc@gmail.com'), (5, 'angie', 'ciclos', 'angiec@gmail.com'), (6, 'tatiana', 'patino', 'tatianapa@gmail.com'), (25, 'mateta', 'Acosta', 'mateta@gmail.com'), (21, 'Diego', 'Rivera', 'Diegor@gmail.com')]
+02:53:54 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+02:53:54 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+02:53:54 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x000001CEBD029E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
