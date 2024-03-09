@@ -10,3 +10,101 @@
 02:53:54 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
 02:53:54 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
 02:53:54 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x000001CEBD029E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:35:32 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+04:35:33 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000022707D5A420>
+04:35:33 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000022709BD5E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:35:33 PM: DEBUG [cursor_del_pool.py: 29] [(1, 'teilorza17', '12345678')]
+04:35:33 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+04:35:33 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+04:35:33 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000022709BD5E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:12:39 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:12:39 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000021D4DA9E5A0>
+05:12:39 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000021D4F499E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:12:39 PM: DEBUG [usuariodao.py: 19] Registros: Id: 1,
+Username: teilorza17,
+password: 12345678
+05:12:39 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:12:39 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+05:12:39 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000021D4F499E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:13:05 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:13:05 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x000001C2CDD18710>
+05:13:05 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x000001C2CF755E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:13:05 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:13:05 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+05:13:05 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x000001C2CF755E00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:45:06 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:45:06 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x00000128CE525C10>
+05:45:06 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x00000128CE529F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:45:06 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:45:06 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : tuple index out of range <class 'IndexError'> <traceback object at 0x00000128CE5BA3C0>
+05:45:06 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x00000128CE529F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:48 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:49:48 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000022E263E5B50>
+05:49:48 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000022E263E9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:48 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:49:48 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : tuple index out of range <class 'IndexError'> <traceback object at 0x0000022E2647A3C0>
+05:49:48 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000022E263E9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:55:31 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:55:31 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x00000127D6CE5B50>
+05:55:31 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x00000127D6CE9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:55:31 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:55:31 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : tuple index out of range <class 'IndexError'> <traceback object at 0x00000127D6D7A2C0>
+05:55:31 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x00000127D6CE9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:57:27 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+05:57:27 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x00000270744D5B50>
+05:57:27 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x00000270744D9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:57:27 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+05:57:27 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : tuple index out of range <class 'IndexError'> <traceback object at 0x000002707456A2C0>
+05:57:27 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x00000270744D9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:02:29 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:02:29 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x000001A59CFC5B50>
+06:02:29 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x000001A59CFC9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:02:29 PM: DEBUG [usuariodao.py: 26] Persona insertada: Id: None,
+Username: tatai,
+password: 123456
+06:02:29 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:02:29 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+06:02:29 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x000001A59CFC9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:02:29 PM: DEBUG [usuariodao.py: 49] Personas insertadas: 1
+06:09:17 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:09:17 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000024BD2EF9850>
+06:09:17 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000024BD2E99F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:09:17 PM: DEBUG [usuariodao.py: 34] Persona actualizada: Id: 2,
+Username: tatiana,
+password: 54321
+06:09:17 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:09:17 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+06:09:17 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000024BD2E99F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:09:17 PM: DEBUG [usuariodao.py: 54] Personas actualizadas: 1
+06:10:15 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:10:15 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x000002C215BA5B50>
+06:10:15 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x000002C215BA9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:10:15 PM: DEBUG [usuariodao.py: 26] Persona insertada: Id: None,
+Username: Hielo,
+password: 548545
+06:10:15 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:10:15 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+06:10:15 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x000002C215BA9F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:10:15 PM: DEBUG [usuariodao.py: 49] Personas insertadas: 1
+06:13:23 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:13:23 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000022DDFE29040>
+06:13:23 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000022DE0069470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:13:23 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:13:23 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x0000022DE00CFC40>
+06:13:23 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000022DE0069470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:13:34 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:13:34 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x0000020B4489F9E0>
+06:13:34 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x0000020B44839F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:13:34 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:13:34 PM: ERROR [cursor_del_pool.py: 19] EROOR __EXIT__ : 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x0000020B448CDD00>
+06:13:34 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x0000020B44839F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:16:27 PM: DEBUG [cursor_del_pool.py: 10] __ENTER__
+06:16:27 PM: DEBUG [conexion.py: 25] CONECTADO (ObtenerPool): <psycopg2.pool.SimpleConnectionPool object at 0x00000241D239F9E0>
+06:16:27 PM: DEBUG [conexion.py: 37] CONEXION CORRECTA: <connection object at 0x00000241D2339F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:16:27 PM: DEBUG [usuariodao.py: 42] Persona eliminada: Id: 3,
+Username: None,
+password: None
+06:16:27 PM: DEBUG [cursor_del_pool.py: 16] __EXIT__
+06:16:27 PM: DEBUG [cursor_del_pool.py: 22] COMMIT
+06:16:27 PM: DEBUG [conexion.py: 43] CONEXION CERRADA: <connection object at 0x00000241D2339F10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:16:27 PM: DEBUG [usuariodao.py: 59] Personas eliminadas: 1

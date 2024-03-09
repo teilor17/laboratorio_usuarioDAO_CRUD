@@ -11,7 +11,7 @@ class CursorDelPool:
         self._conn = Conexion.obtenerConexion()
         self._cursor = self._conn.cursor()
         return self._cursor
-    
+
     def __exit__(self, exc_type, exc_val, exc_tb):
         log.debug('__EXIT__')
         if exc_val:
@@ -25,5 +25,5 @@ class CursorDelPool:
 
 if __name__ == '__main__':
     with CursorDelPool() as cursor:
-        cursor.execute('SELECT * FROM personas')
+        cursor.execute('SELECT * FROM usuarios')
         log.debug(cursor.fetchall())
