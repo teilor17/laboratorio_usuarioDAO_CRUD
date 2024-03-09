@@ -54,6 +54,6 @@ if __name__ == '__main__':
     log.debug(f'Personas actualizadas: {userin}')'''
 
     # Eliminar un registro
-    user1 = Usuario(id_user=3)
+    '''user1 = Usuario(id_user=3)
     userin = UsuarioDao.eliminar(user1)
-    log.debug(f'Personas eliminadas: {userin}')
+    log.debug(f'Personas eliminadas: {userin}')'''
