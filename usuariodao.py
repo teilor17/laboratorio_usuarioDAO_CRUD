@@ -16,14 +16,14 @@ class UsuarioDao:
             for registro in registros:
                 user = Usuario(registro[0], registro[1], registro[2])
                 usuarios.append(user)
-                print(f'Registros: {user}')
+                log.info(f'Registros: {user}')
             return cursor
     @classmethod
     def insertar(cls, usuario):
         with CursorDelPool() as cursor:
             valores = (usuario.username, usuario.password)
             cursor.execute(cls._INSERTAR, valores)
-            log.debug(f'Persona insertada: {usuario}')
+            log.info(f'Persona insertada: {usuario}')
             return cursor.rowcount
 
     @classmethod
@@ -31,7 +31,7 @@ class UsuarioDao:
         with CursorDelPool() as cursor:
             valores = (usuario.username, usuario.password, usuario.id_user)
             cursor.execute(cls._ACTUALIZAR, valores)
-            log.debug(f'Persona actualizada: {usuario}')
+            log.info(f'Persona actualizada: {usuario}')
             return cursor.rowcount
 
     @classmethod
@@ -39,7 +39,7 @@ class UsuarioDao:
         with CursorDelPool() as cursor:
             valores = (usuario.id_user,)
             cursor.execute(cls._ELIMINAR, valores)
-            log.debug(f'Persona eliminada: {usuario}')
+            log.info(f'Persona eliminada: {usuario}')
             return cursor.rowcount
 
 
