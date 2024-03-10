@@ -44,6 +44,8 @@ class UsuarioDao:
 
 
 if __name__ == '__main__':
+
+
     '''user1 = Usuario(username='Hielo', password='548545')
     userin = UsuarioDao.insertar(user1)
     log.debug(f'Personas insertadas: {userin}')'''
