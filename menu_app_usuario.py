@@ -23,7 +23,7 @@ while opcion != 5:
             password = input('Digite la contraseña: ')
             user1 = Usuario(username=usuario, password=password)
             userin = UsuarioDao.insertar(user1)
-            log.debug(f'Personas insertadas: {userin}')
+            log.info(f'Personas insertadas: {userin}')
 
         elif opcion == 3:
             id = input('Digite el Id le usuario para actuualizar: ')
@@ -31,13 +31,13 @@ while opcion != 5:
             password = input('Digite la contraseña: ')
             user1 = Usuario(id, usuario, password)
             userin = UsuarioDao.actualizar(user1)
-            log.debug(f'Personas actualizadas: {userin}')
+            log.info(f'Personas actualizadas: {userin}')
 
         elif opcion == 4:
             id = input('Dijite el Id del usuario a eliminar: ')
             user1 = Usuario(id_user=id)
             userin = UsuarioDao.eliminar(user1)
-            log.debug(f'Personas eliminadas: {userin}')
+            log.info(f'Personas eliminadas: {userin}')
 
     except Exception as a:
         print(f'ocurrio un error {a}')
